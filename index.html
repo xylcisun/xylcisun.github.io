@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邻座的怪同学漫画-邻座的怪同学漫画全集阅读与详细介绍</title>
+    <meta name="description" content="邻座的怪同学漫画是日本漫画家Robico创作的经典少女漫画。本站提供邻座的怪同学漫画的剧情介绍、主要人物解析、漫画章节列表、阅读顺序指南以及常见问题解答，帮助你快速了解这部充满青春气息的作品。">
+    <meta name="keywords" content="邻座的怪同学漫画,邻座的怪同学,漫画,少女漫画,Robico,水谷雫,吉田春,漫画阅读,漫画介绍">
+    <style>
+        /* 全局样式与变量 */
+        :root{
+            --primary-color: #e88a8a;
+            --primary-dark: #c96f6f;
+            --secondary-color: #f7c9c9;
+            --accent-color: #f4a3a3;
+            --bg-light: #fff9f9;
+            --bg-white: #ffffff;
+            --text-main: #3d3d3d;
+            --text-secondary: #6b6b6b;
+            --border-light: #f0dada;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+            --shadow-md: 0 6px 20px rgba(0,0,0,0.08);
+            --radius: 16px;
+            --max-width: 1200px;
+            --transition: all 0.3s ease;
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .container{
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 页眉与导航 */
+        .site-header{
+            background: linear-gradient(135deg, #fff0f0 0%, #ffe5e5 100%);
+            border-bottom: 1px solid var(--border-light);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(6px);
+        }
+
+        .header-inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 15px 20px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo-area{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon{
+            background: var(--primary-color);
+            color: #fff;
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .logo-text{
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            letter-spacing: 0.5px;
+        }
+
+        .logo-text small{
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: var(--text-secondary);
+            display: block;
+            line-height: 1.3;
+        }
+
+        .main-nav ul{
+            display: flex;
+            list-style: none;
+            gap: 8px;
+        }
+
+        .main-nav a{
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 30px;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .main-nav a:hover{
+            background: var(--primary-color);
+            color: #fff;
+        }
+
+        .main-nav a.active{
+            background: var(--primary-color);
+            color: #fff;
+        }
+
+        /* 首屏 Hero */
+        .hero{
+            background: linear-gradient(145deg, #ffe9e9 0%, #fff5f5 60%, #fff 100%);
+            padding: 70px 0 50px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .hero h1{
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 16px;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(232,138,138,0.15);
+        }
+
+        .hero-sub{
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 30px;
+            padding: 0 20px;
+        }
+
+        .hero-badge{
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--primary-dark);
+            font-weight: 600;
+            padding: 6px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-cta{
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn{
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            background: var(--primary-color);
+            color: #fff;
+            box-shadow: 0 4px 14px rgba(232,138,138,0.3);
+        }
+
+        .btn:hover{
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(232,138,138,0.4);
+        }
+
+        .btn-outline{
+            background: transparent;
+            color: var(--primary-dark);
+            border: 2px solid var(--primary-color);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover{
+            background: rgba(232,138,138,0.1);
+            color: var(--primary-dark);
+            box-shadow: none;
+            transform: translateY(-2px);
+        }
+
+        /* 内容区 */
+        main{
+            padding: 60px 0;
+        }
+
+        .section{
+            margin-bottom: 70px;
+        }
+
+        .section-title{
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after{
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 50px;
+            height: 4px;
+            background: var(--accent-color);
+            border-radius: 4px;
+        }
+
+        .section-sub{
+            color: var(--text-secondary);
+            margin-bottom: 35px;
+            font-size: 1.05rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            background: rgba(247,201,201,0.2);
+            padding: 10px 15px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* 卡片网格 */
+        .card-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+
+        .card{
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            padding: 25px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid #fae5e5;
+            transition: var(--transition);
+        }
+
+        .card:hover{
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--secondary-color);
+        }
+
+        .card-icon{
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .card h3{
+            font-size: 1.25rem;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card p{
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* 角色卡片特殊样式 */
+        .character-card{
+            text-align: center;
+            background: var(--bg-white);
+        }
+
+        .character-avatar{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 2.5rem;
+            color: #fff;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(232,138,138,0.25);
+        }
+
+        .character-card h3{
+            margin-bottom: 8px;
+        }
+
+        .character-role{
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--primary-dark);
+            padding: 3px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 13px;
+            font-weight: 600;
+        }
+
+        /* 章节列表 */
+        .chapter-list{
+            list-style: none;
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            border: 1px solid #fae5e5;
+        }
+
+        .chapter-list li{
+            padding: 14px 24px;
+            border-bottom: 1px solid #f5e6e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .chapter-list li:last-child{
+            border-bottom: none;
+        }
+
+        .chapter-list li:hover{
+            background: #fff5f5;
+        }
+
+        .chapter-title{
+            font-weight: 500;
+        }
+
+        .chapter-info{
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .chapter-tag{
+            background: var(--secondary-color);
+            color: var(--primary-dark);
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+
+        /* 阅读步骤 */
+        .steps{
+            counter-reset: step-counter;
+            display: grid;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .step-item{
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            padding: 25px 25px 25px 80px;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .step-item::before{
+            counter-increment: step-counter;
+            content: counter(step-counter);
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--primary-color);
+            color: #fff;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .step-item h3{
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            font-size: 1.15rem;
+        }
+
+        .step-item p{
+            color: var(--text-secondary);
+        }
+
+        /* 双栏布局 */
+        .two-col{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .info-box{
+            background: var(--bg-white);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid #fae5e5;
+        }
+
+        .info-box h3{
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box ul{
+            list-style: none;
+        }
+
+        .info-box li{
+            padding: 8px 0;
+            border-bottom: 1px dashed var(--border-light);
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+        }
+
+        .info-box li:last-child{
+            border-bottom: none;
+        }
+
+        .info-box li::before{
+            content: "✦";
+            color: var(--primary-color);
+            font-size: 0.9rem;
+        }
+
+        /* FAQ */
+        .faq-list{
+            display: grid;
+            gap: 15px;
+        }
+
+        .faq-item{
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 20px 25px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid #fae5e5;
+            transition: var(--transition);
+        }
+
+        .faq-item:hover{
+            box-shadow: var(--shadow-md);
+            border-color: var(--secondary-color);
+        }
+
+        .faq-q{
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .faq-q::before{
+            content: "Q";
+            background: var(--primary-color);
+            color: #fff;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .faq-a{
+            color: var(--text-secondary);
+            padding-left: 38px;
+            font-size: 0.95rem;
+        }
+
+        .faq-a::before{
+            content: "A";
+            color: var(--accent-color);
+            font-weight: 700;
+            margin-right: 8px;
+        }
+
+        /* 相关主题 */
+        .topic-links{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .topic-link{
+            background: var(--bg-white);
+            border: 1px solid var(--secondary-color);
+            color: var(--primary-dark);
+            padding: 10px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .topic-link:hover{
+            background: var(--primary-color);
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* 页脚 */
+        .site-footer{
+            background: #3d2d2d;
+            color: #e8d5d5;
+            padding: 40px 0 20px;
+            margin-top: 40px;
+        }
+
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .footer-brand{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .footer-links a{
+            color: #d9b3b3;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover{
+            color: #fff;
+        }
+
+        .copyright{
+            text-align: center;
+            border-top: 1px solid #5a4141;
+            padding-top: 20px;
+            font-size: 0.85rem;
+            color: #b08a8a;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px){
+            .header-inner{
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .main-nav ul{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1{
+                font-size: 2.2rem;
+            }
+
+            .hero{
+                padding: 50px 0 35px;
+            }
+
+            .two-col{
+                grid-template-columns: 1fr;
+            }
+
+            .card-grid{
+                grid-template-columns: 1fr;
+            }
+
+            .section-title{
+                font-size: 1.6rem;
+            }
+
+            .step-item{
+                padding-left: 70px;
+            }
+
+            .step-item::before{
+                width: 38px;
+                height: 38px;
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px){
+            body{
+                font-size: 15px;
+            }
+
+            .hero h1{
+                font-size: 1.8rem;
+            }
+
+            .hero-sub{
+                font-size: 1rem;
+            }
+
+            .container{
+                padding: 0 15px;
+            }
+
+            .btn{
+                padding: 10px 22px;
+                font-size: 0.9rem;
+            }
+
+            .chapter-list li{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                padding: 12px 16px;
+            }
+
+            .footer-content{
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links a{
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 页眉 -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">怪</div>
+                <div class="logo-text">
+                    邻座的怪同学漫画
+                    <small>青春恋爱漫画指南</small>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#intro" class="active">作品简介</a></li>
+                    <li><a href="#characters">主要人物</a></li>
+                    <li><a href="#chapters">漫画章节</a></li>
+                    <li><a href="#guide">阅读指南</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首屏 Hero -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">🏆 经典少女漫画</span>
+            <h1>邻座的怪同学漫画</h1>
+            <p class="hero-sub">从校园座位开始的恋爱故事，古怪天才少年吉田春与只爱学习的优等生水谷雫，一段充满欢笑与悸动的青春物语。</p>
+            <div class="hero-cta">
+                <a href="#chapters" class="btn">查看漫画章节</a>
+                <a href="#characters" class="btn btn-outline">了解主要角色</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主内容 -->
+    <main>
+        <div class="container">
+
+            <!-- 作品简介 -->
+            <section class="section" id="intro">
+                <h2 class="section-title">作品简介</h2>
+                <p class="section-sub">《邻座的怪同学》是日本漫画家Robico于2008年开始连载的少女漫画作品，全篇共13卷，于2013年完结。故事围绕成绩优秀但冷漠的女高中生水谷雫与问题少年吉田春展开。</p>
+                <div class="card-grid">
+                    <div class="card">
+                        <span class="card-icon">📖</span>
+                        <h3>漫画基本信息</h3>
+                        <p>作者：Robico<br>连载时间：2008年-2013年<br>卷数：全13卷<br>类型：校园 · 恋爱 · 喜剧</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">💡</span>
+                        <h3>故事概要</h3>
+                        <p>水谷雫是只在乎成绩的优等生，为了拿到参考书而被迫给问题学生吉田春送讲义。看似危险的春其实心地单纯，两人在相处中逐渐走近，各自的内心世界也慢慢打开。</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">🎬</span>
+                        <h3>衍生作品</h3>
+                        <p>本作曾于2012年改编为电视动画，由Brain's Base制作，共13集+OVA。动画忠实地还原了原作的轻松氛围与角色魅力，让更多观众认识了这部作品。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 主要人物 -->
+            <section class="section" id="characters">
+                <h2 class="section-title">主要人物</h2>
+                <p class="section-sub">了解这些个性鲜明的角色，是理解《邻座的怪同学漫画》魅力的关键。</p>
+                <div class="card-grid">
+                    <div class="card character-card">
+                        <div class="character-avatar">雫</div>
+                        <h3>水谷雫</h3>
+                        <span class="character-role">女主角</span>
+                        <p>性格冷静、目标明确，只对学习感兴趣。看似冷淡的外表下，其实隐藏着不善与人交往的笨拙与真诚。</p>
+                    </div>
+                    <div class="card character-card">
+                        <div class="character-avatar">春</div>
+                        <h3>吉田春</h3>
+                        <span class="character-role">男主角</span>
+                        <p>因打架而被停学的"问题少年"，实际上内心单纯、直率，渴望朋友与认可。对雫一见倾心，行动力惊人。</p>
+                    </div>
+                    <div class="card character-card">
+                        <div class="character-avatar">夏</div>
+                        <h3>夏目朝子</h3>
+                        <span class="character-role">主要角色</span>
+                        <p>雫的好友，性格开朗天然。虽然经常做出令人惊讶的举动，但内心善良，是故事中重要的气氛调节者。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 漫画章节 -->
+            <section class="section" id="chapters">
+                <h2 class="section-title">漫画章节与阅读顺序</h2>
+                <p class="section-sub">《邻座的怪同学漫画》单行本共13卷，这里是主线章节的简要脉络，帮助你快速定位故事进度。</p>
+                <ul class="chapter-list">
+                    <li>
+                        <span class="chapter-title">第1卷（第1话-第4话）</span>
+                        <span class="chapter-info">相遇篇：雫与春的初次接触<span class="chapter-tag">开始</span></span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第2卷（第5话-第8话）</span>
+                        <span class="chapter-info">关系升温：春的告白与雫的困惑</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第3卷（第9话-第12话）</span>
+                        <span class="chapter-info">新角色登场：夏目与佐佐木的故事</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第4卷（第13话-第16话）</span>
+                        <span class="chapter-info">文化祭风波：春的过去逐渐揭晓</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第5卷（第17话-第20话）</span>
+                        <span class="chapter-info">雫的觉醒：面对自己的感情</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第6卷-第8卷</span>
+                        <span class="chapter-info">关系波折：两人各自的成长与考验</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第9卷-第11卷</span>
+                        <span class="chapter-info">剧情深化：配角们的恋爱故事交织</span>
+                    </li>
+                    <li>
+                        <span class="chapter-title">第12卷-第13卷（最终卷）</span>
+                        <span class="chapter-info">结局篇：所有人的选择与未来<span class="chapter-tag">完结</span></span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 阅读指南 -->
+            <section class="section" id="guide">
+                <h2 class="section-title">漫画阅读指南</h2>
+                <p class="section-sub">无论是初次接触还是重温经典，这份指南都能帮助你更好地享受《邻座的怪同学漫画》。</p>
+                <div class="two-col">
+                    <div class="steps">
+                        <div class="step-item">
+                            <h3>了解故事背景</h3>
+                            <p>故事设定在普通高中校园，以座位相邻为起点。理解日本高中的班级制度和文化祭等元素，能让你更投入剧情。</p>
+                        </div>
+                        <div class="step-item">
+                            <h3>按顺序阅读单行本</h3>
+                            <p>建议从第1卷开始按顺序阅读。Robico老师的叙事节奏细腻，前后伏笔众多，按序阅读才能获得最佳体验。</p>
+                        </div>
+                        <div class="step-item">
+                            <h3>留意番外篇</h3>
+                            <p>部分单行本收录了番外小故事，补充了主线的细节。番外通常轻松有趣，不要错过这些隐藏的甜蜜片段。</p>
+                        </div>
+                        <div class="step-item">
+                            <h3>结合动画观看</h3>
+                            <p>动画版高度还原原作，配音演员的表演非常出色。先看动画再补漫画，或先读漫画再看动画，都会有不同乐趣。</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info-box">
+                            <h3>💝 作品看点</h3>
+                            <ul>
+                                <li>男女主角的互动极具反差萌</li>
+                                <li>配角群像刻画生动立体</li>
+                                <li>恋爱线之外也有成长与友情</li>
+                                <li>笑点密集，节奏明快不拖沓</li>
+                                <li>Robico老师画风清爽有辨识度</li>
+                                <li>情感描写细腻不造作</li>
+                            </ul>
+                        </div>
+                        <div class="info-box" style="margin-top: 20px;">
+                            <h3>⚠️ 阅读提示</h3>
+                            <ul>
+                                <li>全13卷，篇幅适中，适合快速补完</li>
+                                <li>部分情节涉及校园冷暴力等话题</li>
+                                <li>结局圆满，无重大虐心情节</li>
+                                <li>漫画与动画细节略有差异</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 常见问题 FAQ -->
+            <section class="section" id="faq">
+                <h2 class="section-title">常见问题</h2>
+                <p class="section-sub">针对《邻座的怪同学漫画》读者最常提出的疑问，这里进行了集中解答。</p>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-q">《邻座的怪同学》漫画完结了吗？一共有多少卷？</div>
+                        <div class="faq-a">漫画已经完结，全篇共13卷。故事从2008年连载至2013年，结局较为圆满，主要角色的感情线和成长线都得到了合理收束。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">漫画和动画有什么区别？先看哪个比较好？</div>
+                        <div class="faq-a">动画共13集加OVA，改编自漫画前中期内容，制作精良且还原度高。动画在漫画第6卷左右结束，漫画后续有大量新剧情。建议先看动画感受节奏，再从头阅读漫画体验完整故事。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">这部漫画是什么类型的？适合什么人群阅读？</div>
+                        <div class="faq-a">本作属于校园恋爱喜剧，核心读者为少女漫画爱好者。但因其轻松幽默的风格和生动的角色塑造，男性读者也能获得良好阅读体验。故事探讨了友情、自我认同等主题，适合喜欢细腻情感描写的读者。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">漫画有官方中文版吗？在哪里可以购买？</div>
+                        <div class="faq-a">本作在中国大陆由相关出版社引进过简体中文版。读者可以通过正规线上书店或线下书店购买实体书。电子版方面，部分正版阅读平台也提供授权内容，建议支持正版渠道。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">故事里的主要CP除了男女主角还有谁？</div>
+                        <div class="faq-a">除了水谷雫与吉田春这对主线CP外，夏目朝子与佐佐原宗司的感情线也是重要支线，此外还有山贤等人物的情感故事穿插其中，丰富了整个班级的人际关系网络。</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 相关主题 -->
+            <section class="section">
+                <h2 class="section-title">相关主题推荐</h2>
+                <p class="section-sub">如果你喜欢《邻座的怪同学漫画》的风格，以下作品和话题或许也会让你感兴趣。</p>
+                <div class="topic-links">
+                    <a href="#" class="topic-link">校园恋爱漫画推荐</a>
+                    <a href="#" class="topic-link">Robico其他作品</a>
+                    <a href="#" class="topic-link">少女漫画经典盘点</a>
+                    <a href="#" class="topic-link">反差萌角色特辑</a>
+                    <a href="#" class="topic-link">漫画改编动画指南</a>
+                    <a href="#" class="topic-link">青春成长漫画</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    🎀 邻座的怪同学漫画
+                </div>
+                <div class="footer-links">
+                    <a href="#intro">作品简介</a>
+                    <a href="#characters">人物介绍</a>
+                    <a href="#chapters">章节列表</a>
+                    <a href="#faq">常见问题</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>本站为漫画爱好者提供信息分享与交流 · 邻座的怪同学漫画版权归原作者及出版社所有</p>
+                <p style="margin-top: 5px;">© 2024 邻座的怪同学漫画爱好者指南</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+  </html>
